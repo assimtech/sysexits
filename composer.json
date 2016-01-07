@@ -1,0 +1,15 @@
+{
+    "name": "assimtech/sysexits",
+    "type": "library",
+    "description": "PHP My Admin pma db autoconfiguration",
+    "homepage": "https://github.com/assimtech/sysexits",
+    "license": "BSD-4-Clause",
+    "autoload": {
+        "psr-4": {
+            "Assimtech\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.3.3"
+    }
+}
