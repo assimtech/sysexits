@@ -42,7 +42,7 @@
  *
  * The successful exit is always indicated by a status of 0, or EX_OK. Error
  * numbers begin at EX__BASE to reduce the possibility of clashing with oth­
- * er exit statuses that random programs may already return.	The meaning of
+ * er exit statuses that random programs may already return.  The meaning of
  * the codes is approximately as follows:
  */
 

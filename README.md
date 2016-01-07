@@ -1,5 +1,9 @@
 # sysexits
+
 PHP Implementation of sysexits.h
+
+A standard for return codes of cli applications
+
 
 ## Usage
 
@@ -39,6 +43,18 @@ exit(EX_OK);
 
 
 ## Codes
+
+According to style(9),  it is not a good practice to call [exit(3)](http://php.net/manual/en/function.exit.php) with
+arbitrary values to indicate a failure condition when ending a program.
+Instead, the pre-defined exit codes from sysexits should be used, so the
+caller of the process can get a rough estimation about the failure class
+without looking up the source code.
+
+The successful exit is always indicated by a status of 0, or EX_OK. Error
+numbers begin at EX__BASE to reduce the possibility of clashing with oth­
+er exit statuses that random programs may already return.  The meaning of
+the codes is approximately as follows:
+
 
 ### EX_OK (0)
 successful termination
