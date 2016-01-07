@@ -15,10 +15,10 @@ use Assimtech\Sysexits;
 
 // Parse argv or something
 if ($badUsage) {
-    return Sysexits::EX_USAGE;
+    exit(Sysexits::EX_USAGE);
 }
 
-return Sysexits::EX_OK;
+exit(Sysexits::EX_OK);
 ```
 
 
@@ -31,10 +31,10 @@ require_once `assimtech/sysexits/sysexits.php`
 
 // Parse argv or something
 if ($badUsage) {
-    return EX_USAGE;
+    exit(EX_USAGE);
 }
 
-return EX_OK;
+exit(EX_OK);
 ```
 
 
