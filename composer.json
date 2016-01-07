@@ -1,7 +1,7 @@
 {
     "name": "assimtech/sysexits",
     "type": "library",
-    "description": "PHP My Admin pma db autoconfiguration",
+    "description": "PHP implementation of sysexits.h",
     "homepage": "https://github.com/assimtech/sysexits",
     "license": "BSD-4-Clause",
     "autoload": {
