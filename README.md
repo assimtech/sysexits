@@ -13,7 +13,7 @@ A standard for return codes of cli applications
 ```php
 <?php
 
-// composer autoload or require `assimtech/sysexits/src/Sysexits.php`
+// composer autoload or require 'assimtech/sysexits/src/Sysexits.php';
 
 use Assimtech\Sysexits;
 
@@ -31,7 +31,7 @@ exit(Sysexits::EX_OK);
 ```php
 <?php
 
-require_once `assimtech/sysexits/sysexits.php`
+require_once 'assimtech/sysexits/sysexits.php';
 
 // Parse argv or something
 if ($badUsage) {
