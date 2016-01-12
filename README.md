@@ -155,3 +155,11 @@ figured state.
 
 ### EX__MAX (78)
 maximum listed value
+
+
+## License
+
+This product includes software developed by the University of
+California, Berkeley and its contributors.
+
+see [LICENSE](LICENSE)
