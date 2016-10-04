@@ -5,9 +5,9 @@
     "homepage": "https://github.com/assimtech/sysexits",
     "license": "BSD-4-Clause",
     "autoload": {
-        "psr-4": {
-            "Assimtech\\": "src"
-        }
+        "files": [
+            "src/Sysexits.php"
+        ]
     },
     "require": {
         "php": ">=5.3.3"
